@@ -1,0 +1,121 @@
+body{
+    font-family: "krub" sans-serif;
+    background-color: rgb(229, 245, 250);
+}
+
+h1{
+    font-size: 1.4rem;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+h3{
+    color: rgb(51, 207, 255) ;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+.contenedor{
+    background-color: rgb(39, 160, 197);
+}
+.navegacion{
+    background-color: rgb(39, 160, 197);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.navegacion a:hover{
+    background-color: rgb(236, 204, 20);
+    color: black;
+}
+.boton{
+    background-color: rgb(39, 160, 197);
+    color: white;
+    padding: .5rem 3rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.hero{
+    height: 450px;
+    background-image: url(../CSSproyecto/img/hero.jpg);
+}
+.contenido-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+}
+.contenido-hero h2, 
+.contenido-hero p{
+    color: white;
+}
+.sombra{
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: -5px 11px 22px -2px #000000;
+    margin-top: 3rem;
+    border-radius: 10px;
+    background-color: rgb(229, 245, 250);
+}
+.servicios{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6px;
+}
+.servicio{
+    width: 45%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(0, 0, 0, 0.089) 2px solid;
+    border-radius: 6px;
+    margin: 10px;  
+}
+.iconos{
+    background-color: rgb(236, 204, 20);
+    height: 250px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 5PX;
+    justify-content: space-evenly;
+}
+footer{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
